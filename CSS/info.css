@@ -1,11 +1,12 @@
 .info-container {
-    font-family: 'Inria Sans', sans-serif;
+  font-family: 'Inria Sans', sans-serif;
+  min-width: 60%;
+   overflow-y: scroll;
 
-    overflow-y: scroll;
-
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   }
+
   .info-container::-webkit-scrollbar {
     width: 10px;
     flex-direction: column;

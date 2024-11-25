@@ -8,9 +8,10 @@ body {
 .left {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 40%;
+    align-items: flex-start;
+    width: 40vw;
     height: 100%;
+    max-width: 500px;
 }
 
 
