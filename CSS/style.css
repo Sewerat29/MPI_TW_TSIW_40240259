@@ -1,17 +1,24 @@
 body {
     display: flex;
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-    background: #FFFCF5;
+    flex-direction: column;
+
+    background: #FFFCF5;  
 }
 
 .left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 40vw;
-    height: 100%;
     max-width: 500px;
 }
 
+@media (min-width: 600px) {
+    body {
+        flex-direction: row;
+    }   
+    
+    .left {
+        width: 40vw;
+    }
+}
 

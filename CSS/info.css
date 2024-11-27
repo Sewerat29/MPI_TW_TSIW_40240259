@@ -1,8 +1,6 @@
 .info-container {
   font-family: 'Inria Sans', sans-serif;
-  min-width: 60%;
-   overflow-y: scroll;
-
+  
   display: flex;
   flex-direction: column;
   }
@@ -10,7 +8,6 @@
   .info-container::-webkit-scrollbar {
     width: 10px;
     flex-direction: column;
-    justify-content: space-evenly;
   }
   
   .info-container::-webkit-scrollbar-track {
@@ -18,9 +15,16 @@
   }
   
   .info-container::-webkit-scrollbar-thumb {
-    background: #f5e4c3;
+    background: #FFD78A;
     border: 2px solid black;
     border-right: none;
+  }
+
+  @media(min-width: 600px){
+    .info-container {
+      height: 100vh;
+      overflow-y: scroll;
+    }    
   }
   
   .info-title {  
@@ -30,6 +34,8 @@
     border-left: none;
     font-size: 1.5em;    
     padding-left: 1%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
     text-transform: uppercase;
   }
 
