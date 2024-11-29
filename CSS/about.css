@@ -20,7 +20,7 @@ p{
 .paragraph {
     font-size: 1.25em;
     text-align: left;    
-    user-select: none;
+    user-select: none; /*Não permite que o texto seja selecionado*/
 
     display: flex;
     padding: 2% 5%;

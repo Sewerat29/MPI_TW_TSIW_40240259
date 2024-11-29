@@ -5,6 +5,7 @@
   flex-direction: column;
   }
 
+/*Css relativo à scrollbar*/
   .info-container::-webkit-scrollbar {
     width: 10px;
     flex-direction: column;
@@ -19,13 +20,14 @@
     border: 2px solid black;
     border-right: none;
   }
-
+  /*Media querie para quando a width do ecrã é superior a 600px*/
   @media(min-width: 600px){
     .info-container {
       height: 100vh;
       overflow-y: scroll;
     }    
   }
+  
   
   .info-title {  
     background: #FFD78A;

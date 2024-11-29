@@ -6,7 +6,7 @@
     
     font-family: 'Karantina', sans-serif;
     text-align: left;
-    user-select: none;
+    user-select: none; /*Não permite que o texto seja selecionado*/
 
     display: flex;
     justify-content: center;
